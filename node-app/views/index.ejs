@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            height: 500px;
+            position: relative;
+        }
+
+        .vertical-center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Web View</h1>
+    <div class="container">
+        <div class="vertical-center">
+            <button id="jsHandlerButton"> Navigate to Second Screen Using Javascript Handler</button><br>
+            <p></p>
+            <button id="messageHandlerButton"> Navigate to Second Screen Using Message Handler</button>
+        </div>
+    </div>
+</body>
+
+<script src="/js/index.js"></script>
+
+</html>
